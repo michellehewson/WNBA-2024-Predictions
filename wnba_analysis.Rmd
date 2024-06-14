@@ -19,35 +19,62 @@ wnba <- read.csv("wnba_2024.csv")
 ```{r}
 teams <- unique(wnba$HomeTeam)
 num_teams <- length(teams)
-```
 
-## Normal model to estimate WNBA team strengths
-
-```{r}
-# Construct design matrix for normal model calculation
+# Construct design matrix for model calculations
 X <- outer(wnba$HomeTeam, teams, "==") - outer(wnba$AwayTeam, teams, "==")
 W <- rbind(diag(num_teams-1), rep(-1, num_teams-1))
 
 # Create schedule matrix
 X_star <- X %*% W 
 wnba$X_star <- X_star
-ability_model <- lm(PtsDiff~X_star + AtHome + 0, data=wnba)
+```
+
+## Normal model to estimate WNBA team strengths
+
+```{r}
+# Normal model
+normal_ability_model <- lm(PtsDiff~X_star + AtHome + 0, data=wnba)
 W_h <- rbind(cbind(W,0), c(rep(0,num_teams-1),1))
 
-resid_stderr <- summary(ability_model)$sigma
-team_ability_estimates <- W_h %*% ability_model$coefficients
+resid_stderr <- summary(normal_ability_model)$sigma
+team_ability_estimates <- W_h %*% normal_ability_model$coefficients
 
-V <- W_h %*% vcov(ability_model) %*% t(W_h)
+V <- W_h %*% vcov(normal_ability_model) %*% t(W_h)
 dimnames(V) <- list(c(teams,"HFA"), c(teams,"HFA")) # Home field advantage
 
-estimates <- data.frame(Estimate=team_ability_estimates, StdErr=sqrt(diag(V)))
+normal_estimates <- data.frame(Estimate=team_ability_estimates, StdErr=sqrt(diag(V)))
 
-row.names(estimates) <- c(teams,"Home Advantage")
+row.names(normal_estimates) <- c(teams,"Home Advantage")
 
 # Ranking WNBA teams by normal strength estimates
-team_ranks <- estimates[order(-estimates$Estimate),]
-print(team_ranks)
+team_ranks_normal <- normal_estimates[order(-normal_estimates$Estimate),]
+print(team_ranks_normal)
 
 # Write to csv for analysis in Python
 write.csv(team_ranks, "normal_estimates_wnba2024.csv")
+```
+## Another approach: Thurstone-Mosteller model to estimate WNBA team strengths
+
+```{r}
+# Thurstone-Mosteller model (probit)
+tm_model <- glm(HomeWin~X_star+AtHome+0,
+family=binomial(link="probit"), data=wnba)
+
+# Add home field advantage
+W_h <- rbind(cbind(W,0),c(rep(0,num_teams-1),1)) 
+
+# Team strength estimates
+thurstone_estimates <- data.frame("Est"=W_h %*% tm_model$coefficients)
+V.probit <- W_h %*% summary(tm_model)$cov.unscaled %*% t(W_h)
+thurstone_estimates$StdErr <- sqrt(diag(V.probit))
+
+# Format Thurstone-Mosteller dataframe
+row.names(thurstone_estimates) <- c(teams,"HFA")
+dimnames(V.probit) = list(c(teams,"HFA"), c(teams,"HFA"))
+thurstone_estimates = thurstone_estimates[
+order(-thurstone_estimates$Est),]
+thurstone_estimates
+
+# Write to csv for analysis in Python
+write.csv(thurstone_estimates, "thurstone_estimates_wnba2024.csv")
 ```
