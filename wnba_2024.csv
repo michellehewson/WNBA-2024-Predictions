@@ -1,0 +1,71 @@
+Day,Date,HomeTeam,AwayTeam,HomePts,AwayPts,PtsDiff,HomeWin,AtHome
+Tue,2024-05-14,Connecticut Sun,Indiana Fever,92,71,21,1,1
+Tue,2024-05-14,Las Vegas Aces,Phoenix Mercury,89,80,9,1,1
+Tue,2024-05-14,Seattle Storm,Minnesota Lynx,70,83,-13,0,1
+Tue,2024-05-14,Washington Mystics,New York Liberty,80,85,-5,0,1
+Wed,2024-05-15,Dallas Wings,Chicago Sky,87,79,8,1,1
+Wed,2024-05-15,Los Angeles Sparks,Atlanta Dream,81,92,-11,0,1
+Thu,2024-05-16,Indiana Fever,New York Liberty,66,102,-36,0,1
+Fri,2024-05-17,Connecticut Sun,Washington Mystics,84,77,7,1,1
+Fri,2024-05-17,Minnesota Lynx,Seattle Storm,102,93,9,1,1
+Sat,2024-05-18,Dallas Wings,Chicago Sky,74,83,-9,0,1
+Sat,2024-05-18,Las Vegas Aces,Los Angeles Sparks,89,82,7,1,1
+Sat,2024-05-18,New York Liberty,Indiana Fever,91,80,11,1,1
+Sat,2024-05-18,Phoenix Mercury,Atlanta Dream,88,85,3,1,1
+Sun,2024-05-19,Washington Mystics,Seattle Storm,75,84,-9,0,1
+Mon,2024-05-20,Indiana Fever,Connecticut Sun,84,88,-4,0,1
+Mon,2024-05-20,New York Liberty,Seattle Storm,74,63,11,1,1
+Tue,2024-05-21,Atlanta Dream,Dallas Wings,83,78,5,1,1
+Tue,2024-05-21,Los Angeles Sparks,Washington Mystics,70,68,2,1,1
+Tue,2024-05-21,Las Vegas Aces,Phoenix Mercury,88,98,-10,0,1
+Wed,2024-05-22,Seattle Storm,Indiana Fever,85,83,2,1,1
+Thu,2024-05-23,Connecticut Sun,Minnesota Lynx,83,82,1,1,1
+Thu,2024-05-23,New York Liberty,Chicago Sky,81,90,-9,0,1
+Thu,2024-05-23,Phoenix Mercury,Washington Mystics,83,80,3,1,1
+Fri,2024-05-24,Los Angeles Sparks,Indiana Fever,73,78,-5,0,1
+Sat,2024-05-25,Chicago Sky,Connecticut Sun,82,86,-4,0,1
+Sat,2024-05-25,Las Vegas Aces,Indiana Fever,99,80,19,1,1
+Sat,2024-05-25,Minnesota Lynx,New York Liberty,84,67,17,1,1
+Sat,2024-05-25,Phoenix Mercury,Dallas Wings,92,107,-15,0,1
+Sat,2024-05-25,Seattle Storm,Washington Mystics,101,69,32,1,1
+Sun,2024-05-26,Atlanta Dream,Minnesota Lynx,79,92,-13,0,1
+Sun,2024-05-26,Los Angeles Sparks,Dallas Wings,83,84,-1,0,1
+Tue,2024-05-28,Chicago Sky,Seattle Storm,68,77,-9,0,1
+Tue,2024-05-28,Connecticut Sun,Phoenix Mercury,70,47,23,1,1
+Tue,2024-05-28,Indiana Fever,Los Angeles Sparks,82,88,-6,0,1
+Wed,2024-05-29,Minnesota Lynx,Las Vegas Aces,66,80,-14,0,1
+Wed,2024-05-29,New York Liberty,Phoenix Mercury,81,78,3,1,1
+Wed,2024-05-29,Washington Mystics,Atlanta Dream,67,73,-6,0,1
+Thu,2024-05-30,Chicago Sky,Los Angeles Sparks,83,73,10,1,1
+Thu,2024-05-30,Indiana Fever,Seattle Storm,88,103,-15,0,1
+Fri,2024-05-31,Atlanta Dream,Las Vegas Aces,78,74,4,1,1
+Fri,2024-05-31,Connecticut Sun,Dallas Wings,74,72,2,1,1
+Fri,2024-05-31,Minnesota Lynx,Phoenix Mercury,95,71,24,1,1
+Fri,2024-05-31,New York Liberty,Washington Mystics,90,79,11,1,1
+Sat,2024-06-01,Indiana Fever,Chicago Sky,71,70,1,1,1
+Sun,2024-06-02,Atlanta Dream,Connecticut Sun,50,69,-19,0,1
+Sun,2024-06-02,Minnesota Lynx,Dallas Wings,87,76,11,1,1
+Sun,2024-06-02,New York Liberty,Indiana Fever,104,68,36,1,1
+Sun,2024-06-02,Phoenix Mercury,Los Angeles Sparks,87,68,19,1,1
+Tue,2024-06-04,Chicago Sky,New York Liberty,75,88,-13,0,1
+Tue,2024-06-04,Connecticut Sun,Washington Mystics,76,59,17,1,1
+Tue,2024-06-04,Seattle Storm,Phoenix Mercury,80,62,18,1,1
+Wed,2024-06-05,Dallas Wings,Las Vegas Aces,81,95,-14,0,1
+Wed,2024-06-05,Los Angeles Sparks,Minnesota Lynx,62,86,-24,0,1
+Thu,2024-06-06,Atlanta Dream,New York Liberty,61,78,-17,0,1
+Thu,2024-06-06,Washington Mystics,Chicago Sky,71,79,-8,0,1
+Fri,2024-06-07,Los Angeles Sparks,Dallas Wings,81,72,9,1,1
+Fri,2024-06-07,Las Vegas Aces,Seattle Storm,65,78,-13,0,1
+Fri,2024-06-07,Phoenix Mercury,Minnesota Lynx,81,80,1,1,1
+Fri,2024-06-07,Washington Mystics,Indiana Fever,83,85,-2,0,1
+Sat,2024-06-08,Chicago Sky,Atlanta Dream,80,89,-9,0,1
+Sat,2024-06-08,Connecticut Sun,New York Liberty,75,82,-7,0,1
+Sun,2024-06-09,Dallas Wings,Phoenix Mercury,90,97,-7,0,1
+Sun,2024-06-09,Los Angeles Sparks,Las Vegas Aces,96,92,4,1,1
+Sun,2024-06-09,Minnesota Lynx,Seattle Storm,83,64,19,1,1
+Sun,2024-06-09,New York Liberty,Washington Mystics,93,88,5,1,1
+Mon,2024-06-10,Connecticut Sun,Indiana Fever,89,72,17,1,1
+Tue,2024-06-11,Atlanta Dream,Washington Mystics,68,87,-19,0,1
+Tue,2024-06-11,Las Vegas Aces,Minnesota Lynx,86,100,-14,0,1
+Tue,2024-06-11,Seattle Storm,Los Angeles Sparks,95,79,16,1,1
+Wed,2024-06-12,Chicago Sky,Connecticut Sun,75,83,-8,0,1
