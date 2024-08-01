@@ -13,7 +13,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Read/process in data
 ```{r}
-wnba <- read.csv("wnba_2024.csv")
+wnba <- read.csv("completed_games_wnba_2024.csv")
+wnba_full <- read.csv("all_games_wnba_2024.csv")
+
 ```
 
 ```{r}
@@ -44,14 +46,14 @@ dimnames(V) <- list(c(teams,"HFA"), c(teams,"HFA")) # Home field advantage
 
 normal_estimates <- data.frame(Estimate=team_ability_estimates, StdErr=sqrt(diag(V)))
 
-row.names(normal_estimates) <- c(teams,"Home Advantage")
+row.names(normal_estimates) <- c(teams,"HFA")
 
 # Ranking WNBA teams by normal strength estimates
 team_ranks_normal <- normal_estimates[order(-normal_estimates$Estimate),]
 print(team_ranks_normal)
 
 # Write to csv for analysis in Python
-write.csv(team_ranks, "normal_estimates_wnba2024.csv")
+write.csv(team_ranks_normal, "normal_estimates_wnba2024.csv")
 ```
 ## Another approach: Thurstone-Mosteller model to estimate WNBA team strengths
 
@@ -77,4 +79,76 @@ thurstone_estimates
 
 # Write to csv for analysis in Python
 write.csv(thurstone_estimates, "thurstone_estimates_wnba2024.csv")
+```
+
+## Another approach: Bradley Terry model to estimate WNBA team strengths
+
+```{r}
+# Bradley Terry model
+bt_model = glm(HomeWin ~ 0 + X_star + AtHome, 
+                family="binomial", data = wnba)
+# Bradley Terry model estimates
+bt_estimates = 
+  data.frame(Est=W_h %*% bt_model$coefficients)
+
+# Variance covariance matrix
+V.probit = 
+  W_h %*% summary(bt_model)$cov.unscaled %*% t(W_h) 
+
+# Standard error
+bt_estimates$Stderr = sqrt(diag(V.probit))
+
+# Fix row names and format dataframe
+row.names(bt_estimates) = c(teams,"HFA")
+dimnames(V.probit) = list(c(teams,"HFA"), c(teams,"HFA"))
+
+bt_estimates
+
+# Write to csv for analysis in Python
+write.csv(bt_estimates, "bt_estimates_wnba2024.csv")
+```
+
+
+## Paired comparison models (like the Thurstone-Mosteller model and Bradley-Terry model) can be used to estimate the total number of games a team wins at the end of a season by using data from each game outcome mid-way through the season
+
+## Here we are using Bradley-Terry estimates to predict the number of games a team will win before playoffs, then we'll check how close our predictions are once the entire season is complete
+```{r}
+# Create indicator variable for whether the home or away team wins
+wnba_full['HomeWin'] = ifelse(wnba_full$HomePts > wnba_full$AwayPts, 1, 0)
+wnba_full['AtHome'] = 1
+
+# Construct design matrix (schedule)
+X_24 = outer(wnba_full$HomeTeam, teams, "==") - outer(wnba_full$AwayTeam, teams, "==") 
+W = rbind(diag(num_teams-1), rep(-1, (num_teams-1)))
+X_star = X_24 %*% W
+wnba_full$X_star = X_star
+W_h = rbind(cbind(W,0),c(rep(0,num_teams-1),1))
+
+# Fit BT model
+bt_model_full_schedule = glm(HomeWin ~ 0 + X_star + AtHome, 
+                family="binomial",data=wnba_full)
+V.logit =  W_h %*% summary(bt_model_full_schedule)$cov.unscaled %*% t(W_h) 
+
+# Format dataframe for BT estimates
+bt_estimates$Stderr = sqrt(diag(V.logit))
+row.names(bt_estimates) = c(teams,"HFA")
+dimnames(V.logit) = list(c(teams,"HFA"), c(teams,"HFA"))
+
+# Predict the probabilities for the home team winning each game across every game in the season
+pred_prob <- predict(bt_model_full_schedule, wnba_full, type='response')
+
+# Create y, which has a 1 if the game was played and home team won, 0 if the game was played and home team lost, or the predicted probability of the home team winning if the game was not played yet
+wnba_full$y <- ifelse(is.na(wnba_full$HomePts), pred_prob, ifelse(wnba_full$HomePts > wnba_full$AwayPts, 1,0))
+
+# Calculate number of wins based off of y vector
+ystar = 2*wnba_full$y - 1 
+Xty = as.vector(t(X_24) %*% ystar)
+wnba_wins_preds = (Xty + 40)/2
+names(wnba_wins_preds) = teams
+
+# Sort number of win predictions and convert to dataframe
+wnba_wins_preds <- sort(wnba_wins_preds, decreasing = TRUE)
+wnba_wins_preds
+write.csv(wnba_wins_preds, "wnba_win_number_preds.csv")
+
 ```

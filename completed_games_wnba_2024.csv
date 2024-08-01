@@ -96,6 +96,7 @@ Sun,2024-06-23,Atlanta Dream,New York Liberty,75,96,-21,0,1
 Sun,2024-06-23,Chicago Sky,Indiana Fever,88,87,1,1,1
 Sun,2024-06-23,Seattle Storm,Connecticut Sun,72,61,11,1,1
 Sun,2024-06-23,Washington Mystics,Dallas Wings,92,84,8,1,1
+<<<<<<< HEAD:completed_games_wnba_2024.csv
 Thu,2024-06-27,Chicago Sky,Las Vegas Aces,83,95,-12,0,1
 Thu,2024-06-27,Dallas Wings,Minnesota Lynx,94,88,6,1,1
 Thu,2024-06-27,Seattle Storm,Indiana Fever,89,77,12,1,1
@@ -116,3 +117,5 @@ Tue,2024-07-02,New York Liberty,Minnesota Lynx,76,67,9,1,1
 Wed,2024-07-03,Dallas Wings,Phoenix Mercury,96,104,-8,0,1
 Thu,2024-07-04,Las Vegas Aces,Washington Mystics,98,77,21,1,1
 Thu,2024-07-04,Minnesota Lynx,Connecticut Sun,73,78,-5,0,1
+=======
+>>>>>>> origin/main:wnba_2024.csv
