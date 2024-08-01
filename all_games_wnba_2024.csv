@@ -1,0 +1,241 @@
+Day,Date,HomeTeam,AwayTeam,HomePts,AwayPts
+Tue,2024-05-14,Connecticut Sun,Indiana Fever,92,71
+Tue,2024-05-14,Las Vegas Aces,Phoenix Mercury,89,80
+Tue,2024-05-14,Seattle Storm,Minnesota Lynx,70,83
+Tue,2024-05-14,Washington Mystics,New York Liberty,80,85
+Wed,2024-05-15,Dallas Wings,Chicago Sky,87,79
+Wed,2024-05-15,Los Angeles Sparks,Atlanta Dream,81,92
+Thu,2024-05-16,Indiana Fever,New York Liberty,66,102
+Fri,2024-05-17,Connecticut Sun,Washington Mystics,84,77
+Fri,2024-05-17,Minnesota Lynx,Seattle Storm,102,93
+Sat,2024-05-18,Dallas Wings,Chicago Sky,74,83
+Sat,2024-05-18,Las Vegas Aces,Los Angeles Sparks,89,82
+Sat,2024-05-18,New York Liberty,Indiana Fever,91,80
+Sat,2024-05-18,Phoenix Mercury,Atlanta Dream,88,85
+Sun,2024-05-19,Washington Mystics,Seattle Storm,75,84
+Mon,2024-05-20,Indiana Fever,Connecticut Sun,84,88
+Mon,2024-05-20,New York Liberty,Seattle Storm,74,63
+Tue,2024-05-21,Atlanta Dream,Dallas Wings,83,78
+Tue,2024-05-21,Los Angeles Sparks,Washington Mystics,70,68
+Tue,2024-05-21,Las Vegas Aces,Phoenix Mercury,88,98
+Wed,2024-05-22,Seattle Storm,Indiana Fever,85,83
+Thu,2024-05-23,Connecticut Sun,Minnesota Lynx,83,82
+Thu,2024-05-23,New York Liberty,Chicago Sky,81,90
+Thu,2024-05-23,Phoenix Mercury,Washington Mystics,83,80
+Fri,2024-05-24,Los Angeles Sparks,Indiana Fever,73,78
+Sat,2024-05-25,Chicago Sky,Connecticut Sun,82,86
+Sat,2024-05-25,Las Vegas Aces,Indiana Fever,99,80
+Sat,2024-05-25,Minnesota Lynx,New York Liberty,84,67
+Sat,2024-05-25,Phoenix Mercury,Dallas Wings,92,107
+Sat,2024-05-25,Seattle Storm,Washington Mystics,101,69
+Sun,2024-05-26,Atlanta Dream,Minnesota Lynx,79,92
+Sun,2024-05-26,Los Angeles Sparks,Dallas Wings,83,84
+Tue,2024-05-28,Chicago Sky,Seattle Storm,68,77
+Tue,2024-05-28,Connecticut Sun,Phoenix Mercury,70,47
+Tue,2024-05-28,Indiana Fever,Los Angeles Sparks,82,88
+Wed,2024-05-29,Minnesota Lynx,Las Vegas Aces,66,80
+Wed,2024-05-29,New York Liberty,Phoenix Mercury,81,78
+Wed,2024-05-29,Washington Mystics,Atlanta Dream,67,73
+Thu,2024-05-30,Chicago Sky,Los Angeles Sparks,83,73
+Thu,2024-05-30,Indiana Fever,Seattle Storm,88,103
+Fri,2024-05-31,Atlanta Dream,Las Vegas Aces,78,74
+Fri,2024-05-31,Connecticut Sun,Dallas Wings,74,72
+Fri,2024-05-31,Minnesota Lynx,Phoenix Mercury,95,71
+Fri,2024-05-31,New York Liberty,Washington Mystics,90,79
+Sat,2024-06-01,Indiana Fever,Chicago Sky,71,70
+Sun,2024-06-02,Atlanta Dream,Connecticut Sun,50,69
+Sun,2024-06-02,Minnesota Lynx,Dallas Wings,87,76
+Sun,2024-06-02,New York Liberty,Indiana Fever,104,68
+Sun,2024-06-02,Phoenix Mercury,Los Angeles Sparks,87,68
+Tue,2024-06-04,Chicago Sky,New York Liberty,75,88
+Tue,2024-06-04,Connecticut Sun,Washington Mystics,76,59
+Tue,2024-06-04,Seattle Storm,Phoenix Mercury,80,62
+Wed,2024-06-05,Dallas Wings,Las Vegas Aces,81,95
+Wed,2024-06-05,Los Angeles Sparks,Minnesota Lynx,62,86
+Thu,2024-06-06,Atlanta Dream,New York Liberty,61,78
+Thu,2024-06-06,Washington Mystics,Chicago Sky,71,79
+Fri,2024-06-07,Los Angeles Sparks,Dallas Wings,81,72
+Fri,2024-06-07,Las Vegas Aces,Seattle Storm,65,78
+Fri,2024-06-07,Phoenix Mercury,Minnesota Lynx,81,80
+Fri,2024-06-07,Washington Mystics,Indiana Fever,83,85
+Sat,2024-06-08,Chicago Sky,Atlanta Dream,80,89
+Sat,2024-06-08,Connecticut Sun,New York Liberty,75,82
+Sun,2024-06-09,Dallas Wings,Phoenix Mercury,90,97
+Sun,2024-06-09,Los Angeles Sparks,Las Vegas Aces,96,92
+Sun,2024-06-09,Minnesota Lynx,Seattle Storm,83,64
+Sun,2024-06-09,New York Liberty,Washington Mystics,93,88
+Mon,2024-06-10,Connecticut Sun,Indiana Fever,89,72
+Tue,2024-06-11,Atlanta Dream,Washington Mystics,68,87
+Tue,2024-06-11,Las Vegas Aces,Minnesota Lynx,86,100
+Tue,2024-06-11,Seattle Storm,Los Angeles Sparks,95,79
+Wed,2024-06-12,Chicago Sky,Connecticut Sun,75,83
+Thu,2024-06-13,Dallas Wings,Seattle Storm,84,92
+Thu,2024-06-13,Indiana Fever,Atlanta Dream,91,84
+Thu,2024-06-13,Phoenix Mercury,Las Vegas Aces,99,103
+Fri,2024-06-14,Minnesota Lynx,Los Angeles Sparks,81,76
+Fri,2024-06-14,Washington Mystics,Chicago Sky,83,81
+Sat,2024-06-15,Dallas Wings,Connecticut Sun,67,85
+Sat,2024-06-15,Las Vegas Aces,New York Liberty,82,90
+Sun,2024-06-16,Atlanta Dream,Los Angeles Sparks,87,74
+Sun,2024-06-16,Indiana Fever,Chicago Sky,91,83
+Sun,2024-06-16,Phoenix Mercury,Seattle Storm,87,78
+Mon,2024-06-17,Minnesota Lynx,Dallas Wings,90,78
+Tue,2024-06-18,Connecticut Sun,Los Angeles Sparks,79,70
+Tue,2024-06-18,Phoenix Mercury,New York Liberty,99,93
+Wed,2024-06-19,Indiana Fever,Washington Mystics,88,81
+Wed,2024-06-19,Las Vegas Aces,Seattle Storm,94,83
+Wed,2024-06-19,Minnesota Lynx,Atlanta Dream,68,55
+Thu,2024-06-20,Chicago Sky,Dallas Wings,83,72
+Thu,2024-06-20,New York Liberty,Los Angeles Sparks,93,80
+Fri,2024-06-21,Atlanta Dream,Indiana Fever,79,91
+Fri,2024-06-21,Las Vegas Aces,Connecticut Sun,85,74
+Sat,2024-06-22,Minnesota Lynx,Phoenix Mercury,73,60
+Sat,2024-06-22,New York Liberty,Los Angeles Sparks,98,88
+Sat,2024-06-22,Washington Mystics,Dallas Wings,97,69
+Sun,2024-06-23,Atlanta Dream,New York Liberty,75,96
+Sun,2024-06-23,Chicago Sky,Indiana Fever,88,87
+Sun,2024-06-23,Seattle Storm,Connecticut Sun,72,61
+Sun,2024-06-23,Washington Mystics,Dallas Wings,92,84
+Thu,2024-06-27,Chicago Sky,Las Vegas Aces,83,95
+Thu,2024-06-27,Dallas Wings,Minnesota Lynx,94,88
+Thu,2024-06-27,Seattle Storm,Indiana Fever,89,77
+Thu,2024-06-27,Washington Mystics,Connecticut Sun,91,94
+Fri,2024-06-28,Connecticut Sun,Atlanta Dream,74,78
+Fri,2024-06-28,Phoenix Mercury,Los Angeles Sparks,92,78
+Sat,2024-06-29,Seattle Storm,Dallas Wings,97,76
+Sat,2024-06-29,Washington Mystics,Las Vegas Aces,77,88
+Sun,2024-06-30,Chicago Sky,Minnesota Lynx,62,70
+Sun,2024-06-30,New York Liberty,Atlanta Dream,81,75
+Sun,2024-06-30,Phoenix Mercury,Indiana Fever,82,88
+Mon,2024-07-01,Phoenix Mercury,Connecticut Sun,72,83
+Mon,2024-07-01,Seattle Storm,Dallas Wings,95,71
+Tue,2024-07-02,Atlanta Dream,Chicago Sky,77,85
+Tue,2024-07-02,Los Angeles Sparks,Washington Mystics,80,82
+Tue,2024-07-02,Las Vegas Aces,Indiana Fever,88,69
+Tue,2024-07-02,New York Liberty,Minnesota Lynx,76,67
+Wed,2024-07-03,Dallas Wings,Phoenix Mercury,96,104
+Thu,2024-07-04,Las Vegas Aces,Washington Mystics,98,77
+Thu,2024-07-04,Minnesota Lynx,Connecticut Sun,73,78
+Fri,2024-07-05,Dallas Wings,Atlanta Dream,85,82
+Fri,2024-07-05,Los Angeles Sparks,Las Vegas Aces,98,93
+Fri,2024-07-05,Seattle Storm,Chicago Sky,84,88
+Sat,2024-07-06,Indiana Fever,New York Liberty,83,78
+Sat,2024-07-06,Minnesota Lynx,Washington Mystics,74,67
+Sun,2024-07-07,Connecticut Sun,Atlanta Dream,80,67
+Sun,2024-07-07,Los Angeles Sparks,Phoenix Mercury,78,84
+Sun,2024-07-07,Las Vegas Aces,Dallas Wings,104,85
+Sun,2024-07-07,Seattle Storm,Chicago Sky,84,71
+Tue,2024-07-09,Los Angeles Sparks,Minnesota Lynx,67,82
+Wed,2024-07-10,Chicago Sky,Atlanta Dream,78,69
+Wed,2024-07-10,Connecticut Sun,New York Liberty,68,71
+Wed,2024-07-10,Indiana Fever,Washington Mystics,84,89
+Wed,2024-07-10,Phoenix Mercury,Dallas Wings,100,84
+Wed,2024-07-10,Seattle Storm,Las Vegas Aces,79,84
+Thu,2024-07-11,New York Liberty,Chicago Sky,91,76
+Fri,2024-07-12,Atlanta Dream,Las Vegas Aces,70,84
+Fri,2024-07-12,Indiana Fever,Phoenix Mercury,95,86
+Fri,2024-07-12,Seattle Storm,Minnesota Lynx,91,63
+Sat,2024-07-13,Chicago Sky,New York Liberty,67,81
+Sat,2024-07-13,Dallas Wings,Los Angeles Sparks,81,87
+Sun,2024-07-14,Connecticut Sun,Phoenix Mercury,96,69
+Sun,2024-07-14,Minnesota Lynx,Indiana Fever,74,81
+Sun,2024-07-14,Seattle Storm,Atlanta Dream,81,70
+Sun,2024-07-14,Washington Mystics,Las Vegas Aces,77,89
+Tue,2024-07-16,Los Angeles Sparks,Seattle Storm,83,89
+Tue,2024-07-16,Las Vegas Aces,Chicago Sky,85,93
+Tue,2024-07-16,New York Liberty,Connecticut Sun,82,74
+Tue,2024-07-16,Washington Mystics,Phoenix Mercury,87,96
+Wed,2024-07-17,Dallas Wings,Indiana Fever,101,93
+Wed,2024-07-17,Minnesota Lynx,Atlanta Dream,86,79
+Thu,2024-08-15,Chicago Sky,Phoenix Mercury,,
+Thu,2024-08-15,Los Angeles Sparks,New York Liberty,,
+Thu,2024-08-15,Minnesota Lynx,Washington Mystics,,
+Fri,2024-08-16,Atlanta Dream,Seattle Storm,,
+Fri,2024-08-16,Dallas Wings,Connecticut Sun,,
+Fri,2024-08-16,Indiana Fever,Phoenix Mercury,,
+Sat,2024-08-17,Los Angeles Sparks,Chicago Sky,,
+Sat,2024-08-17,Las Vegas Aces,New York Liberty,,
+Sat,2024-08-17,Washington Mystics,Minnesota Lynx,,
+Sun,2024-08-18,Atlanta Dream,Connecticut Sun,,
+Sun,2024-08-18,Indiana Fever,Seattle Storm,,
+Sun,2024-08-18,Las Vegas Aces,Los Angeles Sparks,,
+Sun,2024-08-18,Phoenix Mercury,Chicago Sky,,
+Tue,2024-08-20,Connecticut Sun,Los Angeles Sparks,,
+Tue,2024-08-20,New York Liberty,Dallas Wings,,
+Tue,2024-08-20,Washington Mystics,Seattle Storm,,
+Wed,2024-08-21,Atlanta Dream,Phoenix Mercury,,
+Wed,2024-08-21,Las Vegas Aces,Minnesota Lynx,,
+Thu,2024-08-22,New York Liberty,Dallas Wings,,
+Fri,2024-08-23,Atlanta Dream,Phoenix Mercury,,
+Fri,2024-08-23,Connecticut Sun,Chicago Sky,,
+Fri,2024-08-23,Minnesota Lynx,Las Vegas Aces,,
+Fri,2024-08-23,Washington Mystics,Los Angeles Sparks,,
+Sat,2024-08-24,Minnesota Lynx,Indiana Fever,,
+Sat,2024-08-24,New York Liberty,Connecticut Sun,,
+Sun,2024-08-25,Chicago Sky,Las Vegas Aces,,
+Sun,2024-08-25,Dallas Wings,Los Angeles Sparks,,
+Mon,2024-08-26,Atlanta Dream,Indiana Fever,,
+Mon,2024-08-26,Phoenix Mercury,New York Liberty,,
+Mon,2024-08-26,Seattle Storm,Washington Mystics,,
+Tue,2024-08-27,Dallas Wings,Las Vegas Aces,,
+Wed,2024-08-28,Chicago Sky,Washington Mystics,,
+Wed,2024-08-28,Indiana Fever,Connecticut Sun,,
+Wed,2024-08-28,Los Angeles Sparks,New York Liberty,,
+Wed,2024-08-28,Phoenix Mercury,Minnesota Lynx,,
+Wed,2024-08-28,Seattle Storm,Atlanta Dream,,
+Fri,2024-08-30,Chicago Sky,Indiana Fever,,
+Fri,2024-08-30,Dallas Wings,Minnesota Lynx,,
+Fri,2024-08-30,Las Vegas Aces,Atlanta Dream,,
+Fri,2024-08-30,Seattle Storm,New York Liberty,,
+Sat,2024-08-31,Washington Mystics,Connecticut Sun,,
+Sun,2024-09-01,Connecticut Sun,Seattle Storm,,
+Sun,2024-09-01,Dallas Wings,Indiana Fever,,
+Sun,2024-09-01,Los Angeles Sparks,Atlanta Dream,,
+Sun,2024-09-01,Minnesota Lynx,Chicago Sky,,
+Sun,2024-09-01,Phoenix Mercury,Las Vegas Aces,,
+Tue,2024-09-03,Connecticut Sun,Seattle Storm,,
+Tue,2024-09-03,Dallas Wings,Washington Mystics,,
+Tue,2024-09-03,Las Vegas Aces,Chicago Sky,,
+Tue,2024-09-03,Phoenix Mercury,Atlanta Dream,,
+Wed,2024-09-04,Indiana Fever,Los Angeles Sparks,,
+Thu,2024-09-05,New York Liberty,Seattle Storm,,
+Thu,2024-09-05,Phoenix Mercury,Washington Mystics,,
+Fri,2024-09-06,Atlanta Dream,Dallas Wings,,
+Fri,2024-09-06,Chicago Sky,Los Angeles Sparks,,
+Fri,2024-09-06,Connecticut Sun,Las Vegas Aces,,
+Fri,2024-09-06,Indiana Fever,Minnesota Lynx,,
+Sat,2024-09-07,Seattle Storm,Phoenix Mercury,,
+Sun,2024-09-08,Chicago Sky,Dallas Wings,,
+Sun,2024-09-08,Indiana Fever,Atlanta Dream,,
+Sun,2024-09-08,Los Angeles Sparks,Connecticut Sun,,
+Sun,2024-09-08,New York Liberty,Las Vegas Aces,,
+Sun,2024-09-08,Washington Mystics,Minnesota Lynx,,
+Tue,2024-09-10,Atlanta Dream,Minnesota Lynx,,
+Tue,2024-09-10,Dallas Wings,New York Liberty,,
+Tue,2024-09-10,Los Angeles Sparks,Connecticut Sun,,
+Wed,2024-09-11,Chicago Sky,Washington Mystics,,
+Wed,2024-09-11,Indiana Fever,Las Vegas Aces,,
+Wed,2024-09-11,Los Angeles Sparks,Seattle Storm,,
+Thu,2024-09-12,Dallas Wings,New York Liberty,,
+Fri,2024-09-13,Atlanta Dream,Washington Mystics,,
+Fri,2024-09-13,Dallas Wings,Seattle Storm,,
+Fri,2024-09-13,Indiana Fever,Las Vegas Aces,,
+Fri,2024-09-13,Minnesota Lynx,Chicago Sky,,
+Fri,2024-09-13,Phoenix Mercury,Connecticut Sun,,
+Sun,2024-09-15,Chicago Sky,Phoenix Mercury,,
+Sun,2024-09-15,Indiana Fever,Dallas Wings,,
+Sun,2024-09-15,Las Vegas Aces,Connecticut Sun,,
+Sun,2024-09-15,New York Liberty,Minnesota Lynx,,
+Sun,2024-09-15,Seattle Storm,Los Angeles Sparks,,
+Sun,2024-09-15,Washington Mystics,Atlanta Dream,,
+Tue,2024-09-17,Atlanta Dream,Chicago Sky,,
+Tue,2024-09-17,Connecticut Sun,Minnesota Lynx,,
+Tue,2024-09-17,Los Angeles Sparks,Phoenix Mercury,,
+Tue,2024-09-17,Seattle Storm,Las Vegas Aces,,
+Tue,2024-09-17,Washington Mystics,New York Liberty,,
+Thu,2024-09-19,Connecticut Sun,Chicago Sky,,
+Thu,2024-09-19,Las Vegas Aces,Dallas Wings,,
+Thu,2024-09-19,Minnesota Lynx,Los Angeles Sparks,,
+Thu,2024-09-19,New York Liberty,Atlanta Dream,,
+Thu,2024-09-19,Phoenix Mercury,Seattle Storm,,
+Thu,2024-09-19,Washington Mystics,Indiana Fever,,
